@@ -1,0 +1,64 @@
+{
+  "LV": [
+    {
+      "time": "09.00",
+      "title": "First lesson"
+    },
+    {
+      "time": "10.30",
+      "title": "Second lesson"
+    },
+    {
+      "time": "12.00",
+      "title": "Break"
+    },
+    {
+      "time": "12.30",
+      "title": "Third lesson"
+    },
+    {
+      "time": "14.00",
+      "title": "Fourth lesson"
+    }
+  ],
+  "UK": [
+    {
+      "time": "09.00",
+      "title": "Key note"
+    },
+    {
+      "time": "11.30",
+      "title": "Break"
+    },
+    {
+      "time": "12.00",
+      "title": "Experimental practises"
+    },
+    {
+      "time": "14.00",
+      "title": "Fourth lesson"
+    }
+  ],
+  "RU": [
+    {
+      "time": "10.00",
+      "title": "Free snacks"
+    },
+    {
+      "time": "10.30",
+      "title": "CEO speech"
+    },
+    {
+      "time": "12.00",
+      "title": "Break"
+    },
+    {
+      "time": "12:30",
+      "title": "Gifts to sponsors"
+    },
+    {
+      "time": "14.00",
+      "title": "Final speech"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #fff;
+  color: #666;
+  font-family: 'Open Sans', arial, sans-serif;
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+header {
+  display: block;
+  height: 140px;
+  border-bottom: 5px solid #000;
+  margin-bottom: 30px;}
+
+nav {
+  font-family: oswald, arial, sans-serif;
+  float: right;
+  width: 600px;
+  padding-top: 30px;
+  font-size: 1.4em;
+  text-align: right;
+  text-transform: uppercase;}
+
+nav a {
+  padding-left: 30px;}
+
+nav a:hover, a.current {
+  color: #d71a00;}
+
+a {text-decoration: none; color: #000;}
+
+.third, .event {
+  width: 320px;
+  float: left;
+  text-align: center;}
+
+h2 {
+  font-size: 2.4em;
+  margin: 0.7em 0 1.7em 0;
+  padding: 0;
+  color: #000;
+  line-height: 1em;
+  letter-spacing: -.06em;}
+
+h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #3fbb8a;
+  font-family: oswald, arial, sans-serif;}
+
+.third p {
+  text-align: left;
+  padding-top: 20px;
+  margin: 0 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+  #event a {
+    font-family: oswald, arial, sans-serif;
+    font-size: 120%;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 4.5em;
+    display: block;
+    height: 120px; width: 100%;}
+  #event img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;}
+  #event a:hover, #sessions a:hover {color: #1fb684;}
+  #sessions a {
+    font-family: oswald, arial, sans-serif;
+    font-size: 120%;}
+  #sessions p {
+    margin-top: 2em;}
+  #sessions ul {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    padding: 0 20px 0 20px;
+    margin: 0 0 40px 0;}
+  #sessions li {
+    list-style-type: none;
+    padding: 20px 0 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #d6d6d6;
+    text-align: left;}
+  #sessions li:first-child {
+    border-top: none;
+    padding-top: 1.8em;}
+  #sessions li .time {
+    display: inline-block;
+    width: 60px;}
+  #details div {
+    text-align: left;
+    padding-left: 1em;}
+  #details p {
+    padding: 0;
+    margin: 0.8em 0 0 0;}

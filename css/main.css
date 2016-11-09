@@ -1,0 +1,341 @@
+/* BOX SIZING */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* CLEARFIX */
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.3em; }
+
+.section {
+  padding: 5% 25%; }
+  .section header h3 {
+    text-align: center; }
+
+#intro {
+  text-align: center;
+  background-color: #46675A;
+  color: #545C52; }
+  #intro h1 {
+    color: #FFF; }
+
+#introtext {
+  background-color: #ECEFF1; }
+  #introtext p {
+    text-align: left; }
+  #introtext a {
+    text-align: center;
+    text-decoration: none; }
+
+a[data-state='record'] {
+  background-image: url("../img/record.png"); }
+
+a[data-state='stop'] {
+  background-image: url("../img/pause.png"); }
+
+#buttons {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto; }
+
+#buttons a {
+  width: 100px;
+  height: 100px;
+  text-indent: 100%;
+  margin-top: 20px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden; }
+
+#map {
+  width: 85%;
+  height: 400px;
+  margin: 50px; }
+
+.blue {
+  color: #545C52;
+  background-color: #D6F3F4; }
+
+.purple {
+  color: #545C52;
+  background-color: #E0E5E8; }
+
+article {
+  color: #000;
+  background-color: #fff;
+  padding: 5%;
+  margin: 40px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+
+h3 {
+  color: #48434A;
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-bottom: 50px;
+  word-spacing: 10px;
+  letter-spacing: 3px; }
+
+footer {
+  text-align: center; }
+
+.button {
+  color: #6B646F;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #D9E0E4;
+  border: 3px solid #8F8694;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  transition: 0.3s; }
+
+.button2 {
+  color: #545C52;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #AED8DA;
+  border: 3px solid #8BADAE;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  transition: 0.3s; }
+
+a.button {
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: 0 auto; }
+
+.button:hover {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 0px 2px #8F8694,0px 0px 0px 1px #111111;
+  -moz-box-shadow: 0px 0px 0px 2px #8F8694, 0px 0px 0px 1px #111111;
+  box-shadow: 0px 0px 0px 2px #8F8694, 0px 0px 0px 1px #111111; }
+
+.button2:hover {
+  color: #000;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 0px 2px #8BADAE,0px 0px 0px 1px #111111;
+  -moz-box-shadow: 0px 0px 0px 2px #8BADAE, 0px 0px 0px 1px #111111;
+  box-shadow: 0px 0px 0px 2px #8BADAE, 0px 0px 0px 1px #111111; }
+
+#website {
+  margin-left: 200px; }
+
+#greeting {
+  padding-bottom: 15px; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+th, td {
+  text-align: left;
+  padding: 8px; }
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+tr:first-child {
+  background-color: #6B646F;
+  color: white; }
+
+#hotelName {
+  color: #545C52;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0;
+  border-bottom: 2px solid #5A545D;
+  border-top: 2px solid #5A545D; }
+
+#roomRate {
+  padding-top: 10px;
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #6B646F; }
+
+#discountRate {
+  font-size: 60px;
+  text-align: center;
+  padding: 30px 0;
+  color: #5A545D;
+  letter-spacing: 10px; }
+
+#offerEnds {
+  text-align: center;
+  color: #5A545D;
+  font-size: 12px; }
+
+.cool {
+  padding: 20px 10px;
+  background: #BFEDEF;
+  color: #5A545D;
+  border-bottom: 2px solid #9DC2C4;
+  transition: 0.3s; }
+
+.cool:hover {
+  background: #9DC2C4; }
+
+#domul {
+  list-style-type: none;
+  padding: 0; }
+
+.heading {
+  text-transform: uppercase;
+  padding: 10px 0 20px 0;
+  text-align: center; }
+  .heading span {
+    border-radius: 50%;
+    background-color: #000;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -8px;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    padding: 4px 0 0 0; }
+
+input {
+  background-color: #BBC7CE;
+  color: #F2F4F6;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 24px;
+  width: 100%;
+  padding: 4px 6px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  margin: 10px 0 30px 0; }
+
+input:focus {
+  border: 1px solid #899196;
+  background-color: #899196;
+  outline: none; }
+
+#noteName {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400; }
+
+div#buttons {
+  margin-bottom: 50px; }
+
+#s6list {
+  list-style-type: none;
+  padding: 0; }
+
+.hot {
+  padding: 20px 10px;
+  background: #BFEDEF;
+  color: #5A545D;
+  border-bottom: 2px solid #9DC2C4;
+  transition: 0.3s; }
+
+.hot:hover {
+  background: #9DC2C4; }
+
+.complete {
+  padding: 20px 10px;
+  background: #545C52;
+  color: #000;
+  border-bottom: 2px solid #4D544B;
+  transition: 0.3s; }
+
+.complete:hover {
+  background: #363B35; }
+
+#showForm, input[type=submit] {
+  background-color: #cb6868;
+  color: #f3dad1;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100px; }
+
+#intro {
+  width: 100%;
+  text-align: center;
+  background-color: #46675A;
+  color: #545C52; }
+  #intro h1 {
+    color: #FFF;
+    margin: 0;
+    padding: 20px 0; }
+
+#introtext {
+  padding: 5% 25%;
+  background-color: #ECEFF1; }
+  #introtext p {
+    text-align: left; }
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 210px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s; }
+
+/* The navigation menu links */
+.sidenav ul {
+  list-style-type: none;
+  display: table-cell;
+  vertical-align: middle;
+  height: 700px;
+  padding: 0 20px;
+  transition: 0.3s; }
+
+.sidenav ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 30px; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #f1f1f1; }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#website {
+  transition: margin-left 0.3s; }
+
+.nav-inactive {
+  color: #818181; }
+
+.active {
+  color: #fff; }

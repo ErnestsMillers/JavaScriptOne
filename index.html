@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ernests Millers</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="mediaq.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--********************************************************************
+            INTRODUCTION
+    *********************************************************************-->
+  <div id="website">
+    <section id="intro">
+      <footer id="introtext" class="section">
+        <h3>The purpose of this website</h3>
+        <p>This website main purpose is to increase my knowledge of JavaScript,
+        the website will develop gradually from basic JavaScript to advanced.</p>
+        <p>I will provide JavaScript scripts for anyone willing to understand
+        or see how any part of the website works and is created. The main resource
+        where I will generate my ideas from is from a book I read <cite>
+        Javascript and jQuery by Jon Duckett</cite>, the ideas will be taken from it
+        while I will learn from using the example code and somehow changing it
+        and developing slightly advanced JavaScript.</p>
+      </footer>
+    </section>
+
+    <!--********************************************************************
+            SECTION ONE - BASIC JAVASCRIPT INSTRUCTIONS
+    *********************************************************************-->
+
+    <section id="sectionone" class="section blue">
+      <header>
+        <h3>Basic JavaScript Instructions</h3>
+        <p>This code snippet will use basic JavaScript elements:</p>
+        <ul>
+          <li>Variables declaration and its manipulation.</li>
+          <li>Document model function - getElementById();.</li>
+          <li>String variable .length functionality.</li>
+          <li>Date object.</li>
+          <li>Math object.</li>
+          <li>An array of random welcoming messages.</li>
+        </ul>
+        <p>The script will take written name and calculate its cost by knowing
+        that each letter costs additional cost and shipping as well, it will also
+        generate a random welcome message according to the date of that particular
+        moment.</p>
+      </header>
+      <article>
+
+        <div id="greeting">Hello!</div>
+        <table>
+          <tr>
+            <td>Custom sign:</td>
+            <td id="userSign"></td>
+          </tr>
+          <tr>
+            <td>Cost Per Tile:</td>
+            <td id="costPerTile"></td>
+          </tr>
+          <tr>
+            <td>Total tiles:</td>
+            <td id="tiles"></td>
+          </tr>
+          <tr>
+            <td>Subtotal:</td>
+            <td id="subTotal">&pound;</td>
+          </tr>
+          <tr>
+            <td>Shipping:</td>
+            <td id="shipping">&pound;</td>
+          </tr>
+          <tr>
+            <td>Grand total:</td>
+            <td id="grandTotal">&pound;</td>
+          </tr>
+        </table>
+
+        <script src="js/sectionone.js"></script>
+
+      </article>
+      <footer>
+        <a href="js/sectionone.js"><button class="button">View JavaScript Code</button></a>
+      </footer>
+    </section>
+
+    <!--********************************************************************
+            SECTION TWO - FUNCTIONS METHODS AND OBJECTS
+    *********************************************************************-->
+
+    <section id="sectiontwo" class="section purple">
+      <header>
+        <h3>Functions, Methods &amp; Objects</h3>
+        <p>This code will use functions and objects. <br />Below you can see new
+        JavaScript elements that can't be seen in scripts above.</p>
+        <ul>
+          <li>Objects.</li>
+          <li>Functions and immediately invoked function expression (IIFE).</li>
+          <li>Other math() and date() object methods.</li>
+        </ul>
+        <p>This script creates hotel object and calculates the next week date
+        that is the last date of given offer.</p>
+      </header>
+      <article>
+
+        <div id="hotelName"></div>
+        <div id="roomRate"></div>
+        <div id="discountRate"></div>
+        <div id="offerEnds"></div>
+
+        <script src="js/sectiontwo.js"></script>
+
+      </article>
+      <footer>
+        <a href="js/sectiontwo.js"><button class="button2">View JavaScript Code</button></a>
+      </footer>
+    </section>
+
+    <!--********************************************************************
+            SECTION THREE - DECISIONS AND LOOPS
+    *********************************************************************-->
+
+    <section id="sectionthree" class="section blue">
+      <header>
+        <h3>Decisions &amp; Loops</h3>
+        <p>Below you can see new JavaScript elements that can't be seen in scripts above.</p>
+        <ul>
+          <li>While loop.</li>
+          <li>Other math() methods.</li>
+        </ul>
+        <p>This script uses while loop to calculate first 10 valid square roots.</p>
+      </header>
+      <article>
+
+        <div id="blackboard"></div>
+        <script src="js/sectionthree.js"></script>
+
+      </article>
+      <footer>
+        <a href="js/sectionthree.js"><button class="button">View JavaScript Code</button></a>
+      </footer>
+    </section>
+
+    <!--********************************************************************
+            SECTION FOUR - DOCUMENT OBJECT MODEL
+    *********************************************************************-->
+
+    <section id="sectionfour" class="section purple">
+      <header>
+        <h3>Document Object Model (DOM)</h3>
+        <p>This script will use JavaScript to change and update DOM. <br />Below you can
+        see new JavaScript elements that can't be seen in scripts above.</p>
+        <ul>
+          <li>For loop.</li>
+          <li>Many DOM methods</li>
+        </ul>
+        <p>This script explores DOM features by adding two new list items before
+        and after the list, it also adds class to the newly added list item to change
+      its appearance.</p>
+      </header>
+      <article>
+
+        <h2 id="heading" class="heading">Groceries</h2>
+        <ul id="domul">
+          <li id="one" class="one">fresh figs</li>
+          <li id="two" class="one">pine nuts</li>
+          <li id="three" class="one">honey</li>
+          <li id="four" class="one">balsamic vinegar</li>
+        </ul>
+
+        <script src="js/sectionfour.js"></script>
+
+      </article>
+      <footer>
+        <a href="js/sectionfour.js"><button class="button2">View JavaScript Code</button></a>
+      </footer>
+    </section>
+
+
+    <!--********************************************************************
+            SECTION FIVE - EVENTS
+    *********************************************************************-->
+
+    <section id="sectionfive" class="section blue">
+      <header>
+        <h3>Events</h3>
+        <p>This script will use many event object methods, switch and other functions.
+        <br />Below you can see new JavaScript elements that can't be seen in scripts above.</p>
+        <ul>
+          <li>Event object with IE 5-8 fallback.</li>
+          <li>Switch statement.</li>
+          <li>Event listener.</li>
+          <li>Functions with arguments.</li>
+        </ul>
+        <p>This script is about recording app that 'records' the name entered, it also
+        prevents form from executing with event object preventDefault() method.</p>
+      </header>
+      <article>
+
+        <h1>Enter your audio note</h1>
+        <h2 id="noteName">Entered audio note</h2>
+
+        <form action="http://example.org/">
+          <label for="noteInput">Enter note name:</label>
+          <input type="text" id="noteInput" />
+          <div id="buttons">
+            <a data-state="record" href="" id ="recordbutton">record</a>
+          </div>
+        </form>
+
+        <script src="js/sectionfive.js"></script>
+
+      </article>
+      <footer>
+        <a href="js/sectionfive.js"><button class="button">View JavaScript Code</button></a>
+      </footer>
+    </section>
+
+
+    <!--********************************************************************
+            SECTION SIX - JQUERY
+    *********************************************************************-->
+
+    <section id="sectionsix" class="section purple">
+      <header>
+        <h3>jQuery</h3>
+        <p>jQuery becomes powerful when you are able to use it together with JavaScript.
+        This script combines many techniques seen above together with jQuery.
+        <br />Below you can see new JavaScript elements that can't be seen in scripts above.</p>
+        <ul>
+          <li>jQuery together with if statements, functions, event object and more.</li>
+        </ul>
+        <p>The purpose of this script is to create a functional to-do list that can
+          be updated and items can be marked that have been finished. However, the second
+          click will delete item as it is completed. The counter on top of the list will tell
+          how many items still needs to be done.</p>
+      </header>
+      <article>
+
+        <div id="page">
+          <h2 class="heading">Buy groceries <span id="counter"></span></h2>
+          <ul id="s6list">
+            <li id="one" class="hot" class="one">fresh figs</li>
+            <li id="two" class="hot" class="one">pine nuts</li>
+            <li id="three" class="hot" class="one">honey</li>
+            <li id="four" class="hot">balsamic vinegar</li>
+          </ul>
+          <div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+          <form id="newItemForm">
+            <input type="text" id="itemDescription" placeholder="Add description" />
+            <input type="submit" id="add" value="add" />
+          </form>
+        </div>
+
+        <script src="js/sectionsix.js"></script>
+
+      </article>
+      <footer>
+        <a href="js/sectionsix.js"><button class="button2">View JavaScript Code</button></a>
+      </footer>
+    </section>
+
+
+
+
+    <!--********************************************************************
+            SECTION SEVEN - AJAX AND JSON
+    *********************************************************************-->
+
+    <section id="sectionseven" class="section blue">
+      <header>
+        <h3>Ajax &amp; JSON</h3>
+        <p>This code will use Ajax to load JSON and HTML into the page.</p>
+        <ul>
+          <li>jQuery $.ajax, $.getJSON functions.</li>
+          <li>Event objects</li>
+        </ul>
+        <p>This page is created partly with the help of Ajax, it loads different
+        pages without reloading the page, it also has a schedule that loads events
+      and then matches HTML descriptions with the loaded event.</p>
+      </header>
+      <article>
+        <p>Because this example will include many other pages it is created in an
+        external page.</p>
+        <a href="ajax/example.html" class="button">Go the example!</a>
+      </article>
+    </section>
+
+    <!--********************************************************************
+            SECTION EIGHT - GOOGLE MAPS API
+    *********************************************************************-->
+    <section id="sectioneight" class="section purple">
+      <header>
+        <h3>Google Maps API</h3>
+        <p>This is script will interact with Google Maps API to change its appearance.</p>
+        <ul>
+          <li>Google maps API.</li>
+        </ul>
+        <p>This script creates a google map that is customised with JavaScript.
+        It interacts with Google Maps API and changes various objects of the map.</p>
+      </header>
+      <article>
+        <div id="map"></div>
+      </article>
+      <footer>
+        <a href="js/google-map-styled.js"><button class="button2">View JavaScript Code</button></a>
+      </footer>
+    </section>
+  </div>
+
+    <div id="mySidenav" class="sidenav">
+      <ul>
+        <li><a href="#introtext" class="nav-inactive">Introduction</a></li>
+        <li><a href="#sectionone" class="nav-inactive">Basic Javascript</a></li>
+        <li><a href="#sectiontwo" class="nav-inactive">Functions, Methods and Objects</a></li>
+        <li><a href="#sectionthree" class="nav-inactive">Decisions and Loops</a></li>
+        <li><a href="#sectionfour" class="nav-inactive">Document Object Model</a></li>
+        <li><a href="#sectionfive" class="nav-inactive">Events</a></li>
+        <li><a href="#sectionsix" class="nav-inactive">jQuery</a></li>
+        <li><a href="#sectionseven" class="nav-inactive">Ajax and JSON</a></li>
+        <li><a href="#sectioneight" class="nav-inactive">Google Maps API</a></li>
+      </ul>
+    </div>
+
+    <div></div>
+
+    <!--********************************************************************
+            SCRIPTS
+    *********************************************************************-->
+
+    <script src="js/google-map-styled.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+  </body>
+</html>
